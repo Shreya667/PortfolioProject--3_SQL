@@ -26,9 +26,8 @@ Update NashvilleHousing
 SET SaleDateConverted = convert(Date,SaleDate)
 
 
- --------------------------------------------------------------------------------------------------------------------------
 
--- Populate Property Address data
+-- Property Address data
 
 Select *
 from PortfolioProject.dbo.NashvilleHousing
